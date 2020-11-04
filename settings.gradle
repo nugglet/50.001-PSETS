@@ -1,0 +1,6 @@
+include ':pset2b'
+include ':pset2a'
+include ':pset1b'
+include ':pset1a'
+include ':app'
+rootProject.name = "PSets"
