@@ -10,11 +10,15 @@ public class Student implements Observer {
     public Student(String id, TemperatureAlert alert) {
         this.id = id;
         this.alert = alert;
+        alert.register(this);
 
     }
 
     @Override
     public void update(int t) {
+        String ans = String.format("Student %s receives temperature alert: %d",
+                this.id, t);
+        System.out.println(ans);
 
     }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="midterm2018" target="1.7" />
       <module name="pset1a" target="1.7" />
       <module name="pset1b" target="1.7" />
       <module name="pset2a" target="1.7" />

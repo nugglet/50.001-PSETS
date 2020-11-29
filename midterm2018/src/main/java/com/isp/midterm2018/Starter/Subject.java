@@ -4,7 +4,7 @@ package com.isp.midterm2018.Starter;
 public interface Subject {
 
     void notifyObservers();
-    void register();
-    
+    void register(Observer o);
+    void unregister(Observer o);
 
 }

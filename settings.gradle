@@ -1,3 +1,4 @@
+include ':midterm2018'
 include ':pset2b'
 include ':pset2a'
 include ':pset1b'
